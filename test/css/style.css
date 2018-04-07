@@ -1,0 +1,395 @@
+/*通用样式*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font:14px/24px 微软雅黑;
+    background-image: url("../photos/beijing.jpg");
+}
+.wp
+{
+    width:960px;
+    margin:0 auto;
+}
+.fl
+{
+    float:left;
+}
+.fr
+{
+    float:right;
+}
+.cl
+{
+    clear:both;
+}
+.mr_0
+{
+    margin:0px;
+}
+
+.logos
+{
+    margin-top: 10px;
+}
+
+
+/*头部的顶部样式*/
+.top
+{
+    width:100%;
+    height:24px;
+    background-color: #85634d;
+    line-height: 24px;
+    color:white;
+}
+.top span
+{
+    margin-right: 15px;
+}
+.top span.mr_0
+{
+    margin:0;
+}
+.top a
+{
+    color: #00a600;
+    text-decoration: none;
+}
+.top a:hover
+{
+    color: #00ccff;
+}
+
+
+
+/*头部LOGO样式*/
+.logo
+{
+    height: 60px;
+    width:200px;
+    margin-bottom: 5px;
+}
+
+
+/*搜索栏样式表*/
+.sousuo
+{
+    margin-top: 7px;
+    margin-left: 40px;
+}
+.s_z
+{
+
+    background: url("../photos/baidu_09.jpg") no-repeat;
+    width:2px;
+    height: 32px;
+    margin-top: 10px;
+
+}
+.s_zj
+{
+    background: url("../photos/baidu_11.jpg") repeat-x;
+    width:250px;
+    height: 32px;
+    margin-top: 10px;
+}
+.s_zj input
+{
+    height: 29px;
+    width: 240px;
+    border: 0px;
+    margin-top: 1px;
+}
+.s_y
+{
+    background: url("../photos/baidu_13.jpg") no-repeat;
+    width:104px;
+    height: 32px;
+    margin-top: 10px;
+}
+.s_y button
+{
+    width:82px;
+    height: 32px;
+    cursor: pointer;
+    background: none;
+    margin-left: 22px;
+    border:none;
+}
+
+
+
+/*头部的dianhua样式*/
+.dianhua
+{
+    font-size:20px ;
+    line-height: 60px;
+    color:red;
+}
+
+/*头部的搜索栏样式*/
+.nav
+{
+    width:100%;
+    height:40px;
+    background-color: #dd0000;
+}
+.nav li
+{
+    float:left;
+    list-style: none;
+    line-height: 38px;
+    padding:0 20px;
+}
+.nav a
+{
+    text-decoration: none;
+    font-color: #fff;
+    font-size: 18px;
+    color: #00ccff;
+}
+
+.nav li:hover
+{
+    display:block;
+    background-color: #990000;
+    cursor: pointer;
+}
+
+
+/*adv的样式表*/
+.adv
+{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+
+/*简介部分的样式表*/
+.jianjie
+{
+    width:538px;
+    height:300px;
+    background-color: #8b8b8b;
+    float: left;
+    margin-right:20px;
+    border:1px solid black;
+}
+.jjspan
+{
+    color: black;
+    margin-right: 10px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.jjmorespan
+{
+    font-style: italic;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.jjmorespan a:hover
+{
+    color:black;
+}
+.jianjie hr
+{
+    height:5px;
+    border:none;
+    border-top:5px ridge green;
+}
+.jjcomment
+{
+    line-height: 40px;
+    font-size: 20px;
+}
+.jjcomment a
+{
+    text-decoration: none;
+
+}
+.jjcomment a:hover
+{
+    font-size:22px;
+}
+.jjcomment li
+{
+    list-style-type: none;
+    border-bottom: 1px dotted black;
+    padding-left: 10px;
+}
+.jjcomment li:hover
+{
+    background-color: gold;
+}
+
+
+
+/*新闻部分样式表*/
+.xinwen
+{
+    width:398px;
+    height:300px;
+    background-color: #b0c8f5;
+    float:left;
+    margin-bottom: 20px;
+    border:1px solid black;
+}
+.xinwen a
+{
+    text-decoration: none;
+}
+.xwspan
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size:20px;
+    font-style: italic;
+    font-family: "lucida Grande", Verdana;
+}
+.xwmorespan 
+{
+    margin-right: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-style: italic;
+}
+.xwmorespan a:hover
+{
+    color: black;
+}
+.xinwen hr
+{
+    height:5px;
+    border:none;
+    border-bottom:5px ridge green;
+}
+.xinwencomment
+{
+    margin:10px 5px 10px 5px;
+    overflow-y: auto;
+    width:388px;
+    height:220px;
+}
+.xinwenpicture
+{
+    background-image: url("../photos/baidu_05.jpg");
+    float: left;
+    width:166px;
+    height:55px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.xinwenword
+{
+    font-size: 12px;
+    text-indent: 2em;
+}
+
+
+
+
+/*产品样式表*/
+.chanping
+{
+    width:100%;
+    height:350px;
+    background-color: #DAF0FF;
+    border:1px solid black;
+}
+.cptitle
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size:20px;
+    font-style: italic;
+    font-family: "lucida Grande", Verdana;
+    float: left;
+}
+.cpmore
+{
+    font-size: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-style: italic;
+    height:25px;
+    width:40px;
+}
+.cpmore a
+{
+    text-decoration: none;
+}
+.cpmore a:hover
+{
+    font-size:16px;
+    color:black ;
+}
+.chanping hr
+{
+    height:5px;
+    border:none;
+    border-bottom:5px ridge green;
+    margin-top: 10px;
+}
+.chanpingcomment
+{
+    margin-top:50px;
+    margin-left:90px;
+    margin-bottom: 40px;
+}
+.chanpingcomment li
+{
+    list-style-type: none;
+    float: left;
+    margin-right: 90px;
+    position: relative;
+}
+.chanpingcomment span
+{
+    display: none;
+    position: absolute;
+    bottom:10px;
+    left:85px;
+    background-color: #00a600;
+    color: white;
+}
+.chanpingcomment li a:hover span
+{
+    display: block;
+}
+.chanpingcomment hr
+{
+    border:none;
+    height:30px;
+    width:100%;
+}
+
+#lefthand
+{
+    position: fixed;
+    top:30%;
+    height:300px;
+    width:100px;
+    background-color:salmon;
+    border:black solid 1px;
+    z-index:3;
+}
+#lefthandbottom
+{
+    position:fixed;
+    top:50%;
+    background-color: red;
+    height:50px;
+    width:60px;
+    z-index: 2;
+}
